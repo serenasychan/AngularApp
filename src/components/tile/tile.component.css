@@ -1,0 +1,17 @@
+.letter {
+  color: darkblue;
+  font-family: monospace;
+  font-size: large;
+  text-align: center;
+}
+
+:host {
+  align-items: center;
+  background-color: orange;
+  border-radius: 5px;
+  display: flex;
+  height: 30px;
+  justify-content: center;
+  margin: 3px;
+  width: 30px;
+}
