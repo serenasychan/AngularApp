@@ -1,7 +1,9 @@
+<app-tile-writer (textInput)="setName($event)"></app-tile-writer>
+
 <div class="column">
   <div class="row">
-    <ng-container *ngFor="let l of getLetters()">
+    <div *ngFor="let l of getLetters()">
       <app-tile letter="{{ l }}"></app-tile>
-    </ng-container>
+    </div>
   </div>
 </div>
